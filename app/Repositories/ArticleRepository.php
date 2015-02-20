@@ -10,7 +10,7 @@ class ArticleRepository {
 
 	public function all(array $related = [])
 	{
-		return Article::with($related)->get();
+		return Article::with($related)->orderBy('publish_date', 'desc')->get();
 	}
 
 	public function get($id, array $related = [])
