@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "laravel-elixir": "*",
+    "gulp-concat": "^2.5.0",
+    "gulp-compass": "^2.0.3",
+    "gulp-minify-css": "^0.4.5",
+    "gulp-coffee": "^2.3.1",
+    "gulp-util": "^3.0.3",
+    "gulp-imagemin": "^2.2.0"
+  }
+}

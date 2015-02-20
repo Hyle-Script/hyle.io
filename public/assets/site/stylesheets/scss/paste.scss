@@ -1,0 +1,23 @@
+@import "main";
+
+textarea {
+  width: 100%;
+  border: none;
+
+
+  padding-top: 10px;
+  outline: none;
+}
+h2 {
+  margin: 0;
+}
+
+#paste pre {
+  min-height: 400px
+}
+
+#paste .introduction {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}

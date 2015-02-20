@@ -1,0 +1,68 @@
+@import "main";
+
+
+#gallery {
+
+  .single .demo {
+    .description {
+      margin-top: 25px;
+    }
+    h3 {
+      margin-bottom: 20px
+    }
+  }
+
+  .index>.row {
+    margin-top: 45px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  .index .demo {
+    margin-top: 20px;
+
+    .description {
+      color: #999;
+      height: 50px;
+      overflow: hidden;
+    }
+
+    a.pre-link {
+      text-decoration: none;
+       > pre {
+        margin-top: 20px;
+      }
+    }
+
+    pre.closed {
+      height: 150px;
+      overflow: hidden;
+      opacity: .8;
+      -webkit-box-shadow: inset 0 -8px 12px -12px black;
+         -moz-box-shadow: inset 0 -8px 12px -12px black;
+              box-shadow: inset 0 -8px 12px -12px black;
+
+      &:hover {
+        border-color: #999;
+        opacity: 1;
+        -webkit-box-shadow: none;
+           -moz-box-shadow: none;
+                box-shadow: none;
+      }
+    }
+
+  }
+
+  .title {
+    margin-top: 0;
+    height: 50px;
+  }
+  .subnav {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+  }
+  hr + .subnav {
+    padding-top: 0;
+  }
+}
