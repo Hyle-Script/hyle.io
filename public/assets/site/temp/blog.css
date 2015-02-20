@@ -132,10 +132,10 @@ blockquote p {
   margin-bottom: 30px;
   padding-bottom: 30px;
 }
-#blog #content .post .content p {
+#blog #content .article .content p {
   margin: 25px 0;
 }
-#blog #content .post .content > p:first-child {
+#blog #content .article .content > p:first-child {
   font-size: 1.8em;
   color: #666;
 }

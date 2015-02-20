@@ -50,6 +50,16 @@ Route::get('/docs/{version}/{page?}', ['uses' => 'DocumentationController@show',
 
 /*
 |-------------------------------
+| Paste
+|-------------------------------
+*/
+Route::get('/paste', ['uses' => 'PasteController@create', 'as' => 'pastes.create']);
+Route::post('/paste', ['uses' => 'PasteController@store', 'as' => 'pastes.store']);
+Route::get('/paste/{any}', ['uses' => 'PasteController@show', 'as' => 'pastes.show']);
+Route::get('/paste/{any}/raw', ['uses' => 'PasteController@raw', 'as' => 'pastes.raw']);
+
+/*
+|-------------------------------
 | Blog
 |-------------------------------
 */
