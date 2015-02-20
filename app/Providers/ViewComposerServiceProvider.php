@@ -11,9 +11,9 @@ class ViewComposerServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		view()->composer('site.layouts.app', 'App\HTTP\Composers\LayoutComposer');
-		view()->composer('site.resources.demo.*', 'App\HTTP\Composers\DemosComposer');
-		view()->composer('site.resources.article.*', 'App\HTTP\Composers\ArticlesComposer');
+		view()->composer('site.layouts.app', 'App\Http\Composers\LayoutComposer');
+		view()->composer('site.resources.demo.*', 'App\Http\Composers\DemosComposer');
+		view()->composer('site.resources.article.*', 'App\Http\Composers\ArticlesComposer');
 	}
 
 	/**
