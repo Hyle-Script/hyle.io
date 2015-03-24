@@ -18,7 +18,7 @@
     <div class="row">
       <div class="col-sm-4 col-md-4">
         <img src="{{ $aws }}{{ $demo->image }}" alt="" class="thumbnail">
-        <p class="description">{{ $demo->description }}</p>
+        <p class="description">{!! Markdown::parse($demo->description) !!}</p>
       </div>
       <div class="col-sm-8 col-md-8">
         <pre class="code">{{{ $demo->code }}}</pre>

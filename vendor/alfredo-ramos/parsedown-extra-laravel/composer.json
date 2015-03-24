@@ -1,0 +1,31 @@
+{
+    "name": "alfredo-ramos/parsedown-extra-laravel",
+    "description": "A Parsedown Extra wrapper for Laravel 5",
+	"keywords": ["markdown", "markdown extra", "parsedown", "parsedown extra", "laravel", "laravel 5", "parser"],
+	"homepage": "https://github.com/AlfredoRamos/parsedown-extra-laravel",
+	"license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Alfredo Ramos",
+            "email": "alfredo.ramos@yandex.com",
+			"role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+		"erusev/parsedown-extra": "*"
+    },
+	"require-dev": {
+		"orchestra/testbench": "3.0.*"
+	},
+    "autoload": {
+        "psr-4": {
+            "AlfredoRamos\\ParsedownExtra\\": "src/"
+        }
+    },
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.2-dev"
+		}
+	}
+}

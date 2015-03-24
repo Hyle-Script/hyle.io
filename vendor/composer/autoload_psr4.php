@@ -12,11 +12,11 @@ return array(
     'React\\Promise\\' => array($vendorDir . '/react/promise/src'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'League\\Flysystem\\' => array($vendorDir . '/league/flysystem/src'),
-    'League\\CommonMark\\' => array($vendorDir . '/league/commonmark/src'),
     'Illuminate\\' => array($vendorDir . '/laravel/framework/src/Illuminate'),
     'GuzzleHttp\\Stream\\' => array($vendorDir . '/guzzlehttp/streams/src'),
     'GuzzleHttp\\Ring\\' => array($vendorDir . '/guzzlehttp/ringphp/src'),
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'ClassPreloader\\' => array($vendorDir . '/classpreloader/classpreloader/src'),
     'App\\' => array($baseDir . '/app'),
+    'AlfredoRamos\\ParsedownExtra\\' => array($vendorDir . '/alfredo-ramos/parsedown-extra-laravel/src'),
 );

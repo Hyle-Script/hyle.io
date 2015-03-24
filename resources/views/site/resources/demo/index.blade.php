@@ -18,7 +18,7 @@
             @foreach ($demosRow as $demo)
               <div class="col-md-4 col-lg-4 demo">
                 <h3 class="title"><a href="{{ URL::route('gallery.show', $demo->id) }}">{{ $demo->title }}</a></h3>
-                <div class="description">{{ $demo->description }}</div>
+                <div class="description">{!! Markdown::parse($demo->description) !!}</div>
 
                 <a href="{{ URL::route('gallery.show', $demo->id) }}" class="pre-link">
                   <img src="{{ $aws }}{{ $demo->image }}" alt="" class="thumbnail">

@@ -12,7 +12,7 @@
           </div>
         </div>
         <div class="content">
-          {!! $article->parsed_content !!}
+          {!! Markdown::parse($article->content) !!}
         </div>
       </div>
     </div>

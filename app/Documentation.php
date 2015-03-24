@@ -42,14 +42,7 @@ class Documentation {
 	 */
 	public function getIndex($version)
 	{
-		return $this->cache->remember('docs.'.$version.'.index', 5, function() use ($version) {
-			$path = base_path('resources/documentation/'.$version.'/documentation.md');
-			if ($this->files->exists($path)) {
-				$converter = new CommonMarkConverter();
-				return $converter->convertToHtml($this->files->get($path));
-			}
-			return null;
-		});
+		return $this->get($version, 'documentation');
 	}
 	/**
 	 * Get the given documentation page.
@@ -63,8 +56,7 @@ class Documentation {
 		return $this->cache->remember('docs.'.$version.'.'.$page, 5, function() use ($version, $page) {
 			$path = base_path('resources/documentation/'.$version.'/'.$page.'.md');
 			if ($this->files->exists($path)) {
-				$converter = new CommonMarkConverter();
-				return $converter->convertToHtml($this->files->get($path));
+				return $this->files->get($path);
 			}
 			return null;
 		});
