@@ -180,7 +180,7 @@ compsositions:
       <div class="col-lg-12 text-center">
         <h3 class="text-center">Available at aescripts + aeplugins</h3>
         <h4>Try it for 7 days or buy it for 69$.</h4>
-        <a href="http://aescripts.com/hyle" target="_blank" class="btn btn-primary btn-lg action-buy event-aescripts">Get it on aescripts + aeplugins</a>
+        <a href="https://github.com/hyle-script/hyle" target="_blank" class="btn btn-primary btn-lg action-buy event-aescripts">Get it on Github</a>
       </div>
     </div>
   </div>
