@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css">
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/assets/site/stylesheets/css/{{$pagename}}.css">
+  <link rel="stylesheet" href="/assets/site/css/{{$pagename}}.css">
 
   <script type="text/javascript" src="//use.typekit.net/ixh4lqt.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
