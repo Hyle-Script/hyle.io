@@ -10,12 +10,20 @@ Hyle is a new tool that allows you to automate tasks in After Effects quickly an
 
 ## Installation
 
-Installing Hyle is just as staightforward as installing any other After Effects script.
+### To install Hyle’s core
 
-1. Copy `Hyle.jsxbin` in your After Effects scripts folder.
+[Download](http://hyle.io/download) the script and put `hyle.jsx` in your startup scripts folder.
+
+  - Windows: `Program Files\Adobe\Adobe After Effects <version>\/Support Files/Scripts/Startup`
+  - OS X: `/Applications/Adobe After Effects CC 2014/Scripts/Startup`
+
+### To install Hyle’s panel
+
+From the previously downloaded archive, drag `hyle-panel.jsx` in your script ui folder.
+
   - Windows: `Program Files\Adobe\Adobe After Effects <version>\Support Files\Script UI Panels`
   - OS X: `/Applications/Adobe After Effects <version>/Scripts/ScriptUI Panels`
-2. In After Effects general preferences check *Allow Scripts to Write Files and Access Network*
+
 
 ## Compatibility
 

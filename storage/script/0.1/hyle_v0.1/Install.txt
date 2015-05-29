@@ -1,0 +1,4 @@
+Hyle Installation
+
+- Drag ScriptUI Panels/hyle-panel.jsx in your Scripts UI folder
+- Drag Startup/hyle.jsx in your Startup folder.

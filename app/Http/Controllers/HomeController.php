@@ -37,4 +37,10 @@ class HomeController extends Controller {
 		return view('site.pages.home', $this->data);
 	}
 
+	public function download()
+	{
+		// return 'test';
+		return response()->download(storage_path() . '/script/0.1/hyle_v0.1.zip');
+	}
+
 }
